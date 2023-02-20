@@ -1,0 +1,14 @@
+``` use the functions from different files and call in node
+javascript-fundamentals git:(main) ✗ node
+Welcome to Node.js v19.6.1.
+Type ".help" for more information.
+> const timesNumbers = require('./multiply.js')
+undefined
+> const addNumbers = require('./add.js')
+undefined
+> const result = timesNumbers(2, addNumbers(4, 4));
+undefined
+> console.log(result);
+16
+undefined
+>
