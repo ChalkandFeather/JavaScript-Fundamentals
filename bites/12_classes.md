@@ -45,7 +45,7 @@ We can now launch the `node` REPL and require the class:
 ```js
 // In the REPL
 
-const Rectangle = require('./rectangle');
+
 ```
 
 And use it to create new instances:
