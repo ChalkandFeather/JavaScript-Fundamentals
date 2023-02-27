@@ -21,16 +21,26 @@ downMethod() {
     this.currentTemp -= 1;
   }
 }
+reset() {
+  if (this.currentTemp >10) {
+    this.currentTemp = 20;
+  }
+}
 
 
+usageStatus() {
+  if (this.currentTemp < 18) {
+    return 'low-usage';
+  } else if (this.currentTemp <= 25) {
+    return 'medium-usage';
+  } else {
+    return 'high-usage';
+  }
+}
 }
 
 module.exports = Thermostat;
 
-/* //method to increase tempterature
-//check powersave? status on/off true/false
-  /*upMethod() => {
-    if (this.powersave === true && currentTemp < 25);
-     return this.currentTemp; */
+
 
   

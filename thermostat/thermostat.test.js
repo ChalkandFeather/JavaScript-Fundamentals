@@ -22,4 +22,8 @@ describe('Thermostat', () => {
     expect(thermostat.getTemperature()).toBe(19);
   });
 
+  it("resets temp to 20 when reset is called", () => {
+    thermostat.reset();
+    expect(thermostat.getTemperature()).toBe(20);
+  });
 });

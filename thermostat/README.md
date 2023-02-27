@@ -1,3 +1,8 @@
+
+Current prog includes up/down methods
+-functions to add add inc. effect on powersave when current temp already exceeds powersae max
+-edge cases for combinations of up/down/reset
+
 You'll build, test-driving your code, a simple program to manage a thermostat. Here is the specification for the initial MVP of the program:
 
     The Thermostat starts with an initial temperature of 20 degrees
